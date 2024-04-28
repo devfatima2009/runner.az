@@ -1,0 +1,52 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 12px;
+  font-family: "Century Gothic", Arial, sans-serif;
+  color: #000;
+  background: #fff;
+  height: 100%;
+}
+
+.header-details .top-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 25px 40px;
+}
+.header-details .top-header .social-links {
+  display: flex;
+  align-items: baseline;
+  gap: 40px;
+}
+.header-details .top-header .social-links p {
+  font-size: 14px;
+  font-weight: bold;
+}
+.header-details .top-header .social-links .social-links-icon {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: space-between;
+  width: 76px;
+  font-size: 14px;
+}
+.header-details .top-header .header-contacts {
+  display: flex;
+  gap: 35px;
+  font-size: 14px;
+}
+.header-details .top-header .header-contacts .phone {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.header-details .top-header .header-contacts .email {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}/*# sourceMappingURL=style.css.map */

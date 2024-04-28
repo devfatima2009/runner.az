@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    font-size: 12px;
+    font-family: 'Century Gothic', Arial, sans-serif;
+    color: #000;
+    background: #fff;
+    height: 100%;
+}
+.header-details{
+    .top-header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 25px 40px;
+        .social-links{
+            display: flex;
+            align-items: baseline;
+            gap:40px;
+            p{
+                font-size: 14px;
+                font-weight: bold;
+            }
+            .social-links-icon{
+                display:flex;
+                gap:5px;
+                align-items: center;
+                justify-content: space-between;
+                width: 76px;
+                font-size: 14px;
+            }
+        }
+        .header-contacts{
+            display:flex;
+            gap:35px;
+            font-size: 14px;
+            .phone{
+                display: flex;
+                align-items: center;
+                gap:6px;
+            }
+            .email{
+                display: flex;
+                align-items: center;
+                gap:6px;     
+            }
+        }
+    }
+}
